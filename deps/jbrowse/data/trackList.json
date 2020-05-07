@@ -9,16 +9,16 @@
             "seqType": "dna",
             "storeClass": "JBrowse/Store/SeqFeature/IndexedFasta",
             "type": "SequenceTrack",
-            "urlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/703fb2e9-b74b-4462-83f5-73c6c5a16d25",
-            "faiUrlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/ad4ebf34-49fa-41b0-ab4c-9358d46a352b"
+            "urlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/9f0c7e98-bdc8-4257-9f2d-739d898e97ae",
+            "faiUrlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/bbbfac3e-1491-4ffd-8687-fb2c5cba3e39"
         },
 
         {
             "label": "snps.vcf",
             "key": "snps.vcf",
             "storeClass": "JBrowse/Store/SeqFeature/VCFTabix",
-            "urlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/bc6511d3-9388-45b3-8994-4e3a5dea3403",
-            "tbiUrlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/6ef659ab-250f-4c3c-9340-0042b871a02e",
+            "urlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/a293a557-47b3-4fcc-8bef-d2049ad6368a",
+            "tbiUrlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/f19936ff-6f66-4a44-831f-1bfcdc6e88c4",
             "type": "JBrowse/View/Track/HTMLVariants"
         }
     ]

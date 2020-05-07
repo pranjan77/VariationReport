@@ -1,10 +1,10 @@
 #
 # define display information
 #
-name: Method Name Here
+name: Display Variation in Jbrowse
 
 tooltip: |
-    Perform some kind of method
+    Display Variation in Jbrowse
 
 screenshots: []
 
@@ -26,7 +26,7 @@ suggestions:
 parameters :
     parameter_1 :
         ui-name : |
-            First parameter
+            Variation object
         short-hint : |
             The first parameter
         long-hint  : |
