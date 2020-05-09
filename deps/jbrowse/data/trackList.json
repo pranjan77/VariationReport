@@ -1,7 +1,7 @@
 {
     "formatVersion": 1,
     "tracks": [
-{
+        {
             "category": "Reference sequence",
             "chunkSize": 200,
             "key": "Reference sequence",
@@ -9,17 +9,38 @@
             "seqType": "dna",
             "storeClass": "JBrowse/Store/SeqFeature/IndexedFasta",
             "type": "SequenceTrack",
-            "urlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/9f0c7e98-bdc8-4257-9f2d-739d898e97ae",
-            "faiUrlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/bbbfac3e-1491-4ffd-8687-fb2c5cba3e39"
+            "urlTemplate": "https://appdev.kbase.us/dynserv/682063b283a644bbcb27ca7a49919b8093608d05.VariationFileServ/shock/9f0c7e98-bdc8-4257-9f2d-739d898e97ae",
+            "faiUrlTemplate": "https://appdev.kbase.us/dynserv/682063b283a644bbcb27ca7a49919b8093608d05.VariationFileServ/shock/bbbfac3e-1491-4ffd-8687-fb2c5cba3e39"
         },
-
         {
             "label": "snps.vcf",
             "key": "snps.vcf",
             "storeClass": "JBrowse/Store/SeqFeature/VCFTabix",
-            "urlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/a293a557-47b3-4fcc-8bef-d2049ad6368a",
-            "tbiUrlTemplate": "https://appdev.kbase.us/dynserv/b8fedfd6d8a1fc10372bcbad4f152b4b6d85507b.VariationFileServ/shock/f19936ff-6f66-4a44-831f-1bfcdc6e88c4",
+            "urlTemplate": "https://appdev.kbase.us/dynserv/682063b283a644bbcb27ca7a49919b8093608d05.VariationFileServ/shock/a293a557-47b3-4fcc-8bef-d2049ad6368a",
+            "tbiUrlTemplate": "https://appdev.kbase.us/dynserv/682063b283a644bbcb27ca7a49919b8093608d05.VariationFileServ/shock/f19936ff-6f66-4a44-831f-1bfcdc6e88c4",
             "type": "JBrowse/View/Track/HTMLVariants"
+        },
+        {
+            "label": "genes",
+            "key": "genes",
+            "storeClass": "JBrowse/Store/SeqFeature/GFF3Tabix",
+            "urlTemplate":"Sorted_Ptrichocarpa_444_v3.1.gene.gff3.gz",
+            "tbiUrlTemplate": "Sorted_Ptrichocarpa_444_v3.1.gene.gff3.gz.tbi",
+            "type": "JBrowse/View/Track/CanvasFeatures"
+        },
+        {
+            "label": "gene density",
+            "key": "gene_density",
+            "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate":"Ptrichocarpa_444_v3.1.gene.gff3.bw",
+            "type": "JBrowse/View/Track/Wiggle/XYPlot"
+        },
+        {
+            "label": "snp density",
+            "key": "snp_density",
+            "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate":"sample.vcf.bw",
+            "type": "JBrowse/View/Track/Wiggle/XYPlot"
         }
     ]
 }
